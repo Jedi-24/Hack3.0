@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../final.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 45px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration:solid;
+    color:black;
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    transition:0.6s ease;
+}
+ul li a:hover{
+    background-color:black;
+    color:ghostwhite;
+}
+ul li.active a{
+    background-color:black;
+    color:ghostwhite;
+}
+.logo img{
+    float: left;
+    width: 210px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+color: black;
+font-size: 110px;
+}
+.subT{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.subT h1{
+    color: black;
+font-size: 30px;
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    text-decoration:solid;
+    color:black;
+    padding: 5px 20px;
+    border: 2px solid black;
+    transition:0.6s ease;
+}
+.btn:hover{
+    background-color:black;
+    color:ghostwhite;
+}
